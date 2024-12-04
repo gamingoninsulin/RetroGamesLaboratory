@@ -5,28 +5,28 @@
             "file": "./games/NDS/Pokemon - Black version.torrent", 
             "size": 27, 
             "date": "4-12-2024",
-            "image": "./data/img/NDS/Pokemon - Black Version.jpg" 
+            "image": "./data/img/NDS/Pokemon_-_Black_Version.jpg" 
         }, 
         { 
             "name": "Pokemon Black Version 2", 
             "file": "./games/NDS/Pokemon - Black version 2.torrent", 
             "size": 27, 
             "date": "4-12-2024",
-            "image": "./data/img/NDS/Pokemon - Black Version 2.jpg" 
+            "image": "./data/img/NDS/Pokemon_-_Black_Version_2.jpg" 
         },
         { 
             "name": "Pokemon white Version", 
             "file": "./games/NDS/Pokemon - white version.torrent", 
             "size": 27, 
             "date": "4-12-2024",
-            "image": "./data/img/NDS/Pokemon - White Version.jpg" 
+            "image": "./data/img/NDS/Pokemon_-_White_Version.jpg" 
         }, 
         { 
             "name": "Pokemon white Version 2", 
-            "file": "./games/NDS/Pokemon - white version 2.torrent", 
+            "file": "./games/NDS/Pokemon_-_white_version_2.torrent", 
             "size": 27, 
             "date": "4-12-2024",
-            "image": "./data/img/NDS/Pokemon - White Version 2.jpg" 
+            "image": "./data/img/NDS/Pokemon_-_White_Version_2.jpg" 
         }
     ]
 }
