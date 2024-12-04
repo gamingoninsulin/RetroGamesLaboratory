@@ -1,0 +1,55 @@
+/* ============================= Main ====================================*/
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 12%;
+  margin-top: 12%;
+}
+
+/* Simplified view for mobile and tablet devices */
+@media (max-width: 768px) {
+  #main-content.simplified-view {
+    /* Set the max-width of the main content to 100% of the viewport width */
+    max-width: 100%;
+    /* Center the main content horizontally */
+    margin: 0px auto 0px auto;
+    /* Override any existing padding */
+    padding-bottom: 8em; /* Adjust as needed */
+    /* Set the table layout to fixed to ensure that the table width is not greater than the container width */
+    table-layout: fixed;
+    /* Set the width of the table cells to a percentage of the table width */
+    td,
+    th {
+      width: 1%;
+    }
+    /* Set the horizontal scrollbar to appear when the table width exceeds the container width */
+    overflow-x: auto;
+  }
+
+  #footer-container {
+    text-align: center;
+  }
+}
+
+/* Set the navbar and main content to share the same width */
+#navbar-container,
+#footer-container,
+#main-content {
+  width: 100%;
+}
+
+.content_lists {
+  color: black;
+}
+
+.text-centery {
+  font-size: 50px !important;
+  text-align: center !important;
+}

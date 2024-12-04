@@ -1,0 +1,28 @@
+{
+    "games": [
+        { 
+            "name": "Pokemon Black Version", 
+            "file": "./games/NDS/Pokemon - Black version.torrent", 
+            "size": 262.144, 
+            "date": "4-12-2024" 
+        }, 
+        { 
+            "name": "Pokemon Black Version 2", 
+            "file": "./games/NDS/NDS - Pokemon - Black version 2.torrent", 
+            "size": 262.144, 
+            "date": "4-12-2024" 
+        },
+        { 
+            "name": "Pokemon white Version", 
+            "file": "./games/NDS/NDS - Pokemon - white version.torrent", 
+            "size": 262.144, 
+            "date": "4-12-2024" 
+        }, 
+        { 
+            "name": "Pokemon white Version 2", 
+            "file": "./games/NDS/NDS - Pokemon - white version 2.torrent", 
+            "size": 262.144, 
+            "date": "4-12-2024" 
+        }
+    ]
+}
