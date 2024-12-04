@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('./data/json/data.json')
+    fetch('./data/json/nds.json')
         .then(response => response.json())
         .then(data => {
             const contentDiv = document.getElementById('content');
@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create the table head
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
+
+            const headerImage = document.createElement('th');
+            headerImage.textContent = 'Cover Art';
+            headerRow.appendChild(headerImage);
 
             const headerName = document.createElement('th');
             headerName.textContent = 'Game Name';
@@ -36,6 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
             data.games.forEach(game => {
                 const row = document.createElement('tr');
+
+                const imageCell = document.createElement('td');
+                const img = document.createElement('img');
+                img.src = game.image;
+                img.alt = `${game.name} cover art`;
+                img.style.width = '100px'; // Adjust the size as needed
+                imageCell.appendChild(img);
+                row.appendChild(imageCell);
 
                 const nameCell = document.createElement('td');
                 nameCell.textContent = game.name;
