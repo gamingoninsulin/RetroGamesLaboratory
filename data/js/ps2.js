@@ -4,9 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const contentDiv = document.getElementById('content');
 
+            // Check if alphabetical sorting is enabled
+            if (data.Alphabetical_order) {
+                data.games.sort((a, b) => a.name.localeCompare(b.name));
+            }
+
             // Create a table element
             const table = document.createElement('table');
-            table.classList.add('table', 'table-striped');
+            table.classList.add('table', 'table-striped', 'table-centered');
 
             // Create the table head
             const thead = document.createElement('thead');
@@ -21,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             headerRow.appendChild(headerName);
 
             const headerDownload = document.createElement('th');
-            headerDownload.textContent = 'Torrent Link';
+            headerDownload.textContent = 'Download';
             headerRow.appendChild(headerDownload);
 
             const headerSize = document.createElement('th');
@@ -54,15 +59,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 row.appendChild(nameCell);
 
                 const linkCell = document.createElement('td');
-                const link = document.createElement('a');
-                link.href = game.file;
-                link.download = "";
-                link.textContent = "Download";
-                linkCell.appendChild(link);
+                const downloadButton = document.createElement('button');
+                downloadButton.textContent = "Download";
+                downloadButton.addEventListener('click', () => {
+                    game.file.forEach(linkUrl => {
+                        const link = document.createElement('a');
+                        link.href = linkUrl;
+                        link.target = "_blank";
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    });
+                });
+                linkCell.appendChild(downloadButton);
                 row.appendChild(linkCell);
 
                 const sizeCell = document.createElement('td');
-                sizeCell.textContent = game.size + " KB";
+                sizeCell.textContent = game.size + " MB";
                 row.appendChild(sizeCell);
 
                 const dateCell = document.createElement('td');
