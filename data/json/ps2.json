@@ -38,6 +38,16 @@
             "size": 2080.000, 
             "date": "5-12-2024", 
             "image": "./data/img/PS2/Harry_Potter_and_the_Half_Blood_Prince.png" 
+        },
+        { 
+            "name": "Harry Potter and the Philosophers Stone", 
+            "file": [ 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-and-the-philosophers-stone.ps2/HP.and.the.Philosophers.Stone.zip.001", 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-and-the-philosophers-stone.ps2/HP.and.the.Philosophers.Stone.zip.002" 
+            ], 
+            "size": 2080.000, 
+            "date": "5-12-2024", 
+            "image": "./data/img/PS2/Harry_Potter_and_the_Phosophers_Stone.png" 
         }
     ]
 }

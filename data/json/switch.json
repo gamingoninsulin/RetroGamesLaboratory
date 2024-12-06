@@ -1,0 +1,12 @@
+{
+   "Alphabetical_order": false,
+    "games": [
+        { 
+            "name": "Nintendo Switch CFW 1.18.1.0 - AIO", 
+            "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/nintendo-switch-cfw-aio.zip/Nintendo.Switch.CFW.1.18.1.0.-.AOI.zip"], 
+            "size": 81.100, 
+            "date": "05-12-2024",
+            "image": "./data/img/SWITCH/Athmospherev18.png" 
+        }
+    ]
+}

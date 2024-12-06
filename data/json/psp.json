@@ -1,0 +1,12 @@
+{
+   "alphabetical_order": true,
+    "games": [
+        { 
+            "name": "Midnight Club - L.A. Remix", 
+            "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/midnight-bloc-l-a-remix.psp/Midnight.Club.-.L.A.Remix.zip"], 
+            "size": 593.026, 
+            "date": "5-12-2024",
+            "image": "./data/img/PSP/Midnight_Club_L_A_Remix.png"
+        }
+    ]
+}
