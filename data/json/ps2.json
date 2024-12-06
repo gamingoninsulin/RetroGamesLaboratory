@@ -1,31 +1,31 @@
 {
-   "alphabetical_order": true,
+    "Alphabetical_order": true,
     "games": [
         { 
             "name": "50 Cent Bulletproof", 
             "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/50-cent-bulletproof.ps2/50.Cent.-.Bulletproof.iso"], 
-            "size": 50.000, 
+            "size": 5140, 
             "date": "4-12-2024",
             "image": "./data/img/PS2/50_Cent_Bulletproof.png"
         },
         { 
             "name": "Harry Potter and the Chamber of Secrets", 
             "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/Harry_Potter_and_the_Chamber_of_Secrets.ps2/HP.and.the.Chamber.of.Secrets.iso"], 
-            "size": 549.850, 
+            "size": 518, 
             "date": "5-12-2024",
             "image": "./data/img/PS2/Harry_Potter_and_the_Chamber_of_Secrets.png"
         },
         { 
             "name": "Harry Potter - Quidditch World Cup", 
             "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-Quidditch-World-Cup.ps2/Harry.Potter.-.Quidditch.World.Cup.zip"], 
-            "size": 1770.000, 
+            "size": 1590, 
             "date": "5-12-2024",
             "image": "./data/img/PS2/Harry_Potter_Quidditch_World_Cup.png"
         },
         { 
-            "name": "Harry Potter and the Goblet of Fire    ", 
+            "name": "Harry Potter and the Goblet of Fire", 
             "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-and-the-goblet-of-fire.ps2/Harry.Potter.and.the.Goblet.of.Fire.zip"], 
-            "size": 1420.000, 
+            "size": 214.28, 
             "date": "5-12-2024",
             "image": "./data/img/PS2/Harry_Potter_and_the_Goblet_of_Fire.png"
         },
@@ -35,7 +35,7 @@
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harrp-potter-and-the-half-blood-prince.ps2/Harry.Potter.and.the.Half-Blood.Prince.zip.001", 
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harrp-potter-and-the-half-blood-prince.ps2/Harry.Potter.and.the.Half-Blood.Prince.zip.002" 
             ], 
-            "size": 2080.000, 
+            "size": 1190, 
             "date": "5-12-2024", 
             "image": "./data/img/PS2/Harry_Potter_and_the_Half_Blood_Prince.png" 
         },
@@ -45,7 +45,7 @@
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-and-the-philosophers-stone.ps2/HP.and.the.Philosophers.Stone.zip.001", 
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/harry-potter-and-the-philosophers-stone.ps2/HP.and.the.Philosophers.Stone.zip.002" 
             ], 
-            "size": 2080.000, 
+            "size": 1840, 
             "date": "5-12-2024", 
             "image": "./data/img/PS2/Harry_Potter_and_the_Phosophers_Stone.png" 
         },
@@ -55,9 +55,28 @@
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/primal.ps2/Primal.zip.001", 
             "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/primal.ps2/Primal.zip.002" 
             ], 
-            "size": 3210.000, 
+            "size": 1140, 
             "date": "6-12-2024", 
             "image": "./data/img/PS2/Primal.png" 
-        }
+        },
+        { 
+            "name": "The Sims 2 Castaway", 
+            "file": [ 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/tghe-sims-2-castaway.ps2/Sims.2.The.-.Castaway.zip"
+            ], 
+            "size": 1140, 
+            "date": "6-12-2024", 
+            "image": "./data/img/PS2/The_Sims_2_Castaway.png" 
+        },
+        { 
+            "name": "Scarface The World Is Yours", 
+            "file": [ 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/Scarface-The-World-Is-Yours.ps2/Scarface.The.World.Is.Yours.zip.001",
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/Scarface-The-World-Is-Yours.ps2/Scarface.The.World.Is.Yours.zip.002"
+            ], 
+            "size": 3390, 
+            "date": "6-12-2024", 
+            "image": "./data/img/PS2/Scarface_The_World_Is_Yours.png" 
+        }    
     ]
 }

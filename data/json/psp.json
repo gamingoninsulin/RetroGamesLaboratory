@@ -1,12 +1,33 @@
 {
-   "alphabetical_order": true,
+    "Alphabetical_order": true,
     "games": [
         { 
             "name": "Midnight Club - L.A. Remix", 
             "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/midnight-bloc-l-a-remix.psp/Midnight.Club.-.L.A.Remix.zip"], 
-            "size": 593.026, 
+            "size": 607.23, 
             "date": "5-12-2024",
             "image": "./data/img/PSP/Midnight_Club_L_A_Remix.png"
+        },
+        { 
+            "name": "The Sims 2 - Castaway", 
+            "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/the-sims-2-castaway.psp/Sims.2.The.-.Castaway.Europe.En.Fr.De.Es.It.Nl.Pt.zip"], 
+            "size": 291, 
+            "date": "7-12-2024",
+            "image": "./data/img/PSP/The_Sims_2_Castaway.png"
+        },
+        { 
+            "name": "Secret Agent Clank", 
+            "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/Secret-Agent-Clank.psp/Secret.Agent.Clank.iso"], 
+            "size": 1470, 
+            "date": "7-12-2024",
+            "image": "./data/img/PSP/Secret_Agent_Clank.png"
+        },
+        { 
+            "name": "Ratchet & Clank - Size Matters", 
+            "file": ["https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/Ratchet-and-Clank-Size-Matters.psp/Ratchet.Clank.-.Size.Matters.iso"], 
+            "size": 947, 
+            "date": "7-12-2024",
+            "image": "./data/img/PSP/Ratchet_Clank_Size_Matters.png"
         }
     ]
 }
