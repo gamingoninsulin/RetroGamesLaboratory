@@ -41,7 +41,9 @@ body {
 #main-content {
   width: 100%;
 }
-
+h6 {
+  text-align: center;
+}
 .content_lists {
   color: black;
 }

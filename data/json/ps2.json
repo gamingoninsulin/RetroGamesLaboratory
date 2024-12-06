@@ -48,6 +48,16 @@
             "size": 2080.000, 
             "date": "5-12-2024", 
             "image": "./data/img/PS2/Harry_Potter_and_the_Phosophers_Stone.png" 
+        },
+        { 
+            "name": "Primal", 
+            "file": [ 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/primal.ps2/Primal.zip.001", 
+            "https://github.com/gamingoninsulin/RetroGamesLaboratory/releases/download/primal.ps2/Primal.zip.002" 
+            ], 
+            "size": 3210.000, 
+            "date": "6-12-2024", 
+            "image": "./data/img/PS2/Primal.png" 
         }
     ]
 }
