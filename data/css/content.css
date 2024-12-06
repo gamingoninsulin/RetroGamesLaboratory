@@ -7,21 +7,21 @@ body {
   margin: 0;
 }
 
-main {
+#main {
   flex: 1;
-  margin-bottom: 12%;
-  margin-top: 12%;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 /* Simplified view for mobile and tablet devices */
 @media (max-width: 768px) {
-  #main-content.simplified-view {
+  #main.simplified-view {
     /* Set the max-width of the main content to 100% of the viewport width */
     max-width: 100%;
     /* Center the main content horizontally */
     margin: 0px auto 0px auto;
     /* Override any existing padding */
-    padding-bottom: 8em; /* Adjust as needed */
+    padding-bottom: 0px !important; /* Adjust as needed */
     /* Set the table layout to fixed to ensure that the table width is not greater than the container width */
     table-layout: fixed;
     /* Set the width of the table cells to a percentage of the table width */
@@ -32,6 +32,25 @@ main {
     /* Set the horizontal scrollbar to appear when the table width exceeds the container width */
     overflow-x: auto;
   }
+
+  @media (max-width: 400px) { /* Adjust this value as needed */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 77em !important;
+    }
+  
+    #main {
+      flex: 1;
+    }
+  
+    footer {
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+  }
+  
 
   #footer-container {
     text-align: center;
