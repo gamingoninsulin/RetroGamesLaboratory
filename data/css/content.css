@@ -1,54 +1,209 @@
-/* ============================= Main ====================================*/
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
+/* ============================= Main =============================*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+html, body {
+  font-family: Arial, sans-serif !important;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  text-align: center !important;
+  padding-bottom: 4em !important;
 }
 
-#main {
-  flex: 1;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-
-/* Simplified view for mobile and tablet devices */
-@media (max-width: 767px) { /* Adjust this value if needed */
-  body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-  }
-
-  #main.simplified-view {
+@media (max-width: 720px) {
+  #main {
     flex: 1 !important;
-    padding-bottom: 60px !important; /* Adjust this value if needed */
+    padding-bottom: 0px !important;
   }
-
-  footer {
-    position: fixed !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    height: 60px !important; /* Adjust this value to match the footer height */
+  .container {
+    flex-direction: column; /* Stack articles vertically on small screens */
+    margin-left: 0 !important;
+    height: auto; /* Adjust height for smaller screens */
+  }
+  #_left_empty, #_center, #_right_empty, #_left, #_center, #_right {
+    width: 90%; /* Full width for articles on small screens */
+    margin: 10px auto; /* Center articles with margins */
+  }
+  .article {
+    width: 90%; /* Full width for articles on small screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
+  article {
+    word-wrap: break-word; /* Ensure long words break to fit within the container */
+    overflow-wrap: break-word; /* Prevent overflow issues */
   }
 }
 
-/* Set the navbar and main content to share the same width */
-#navbar-container,
-#footer-container,
-#main-content {
+#navbar-container, #footer-container, #main {
   width: 100%;
 }
+
 h6 {
   text-align: center;
 }
+
 .content_lists {
   color: black;
 }
 
-.text-centery {
-  font-size: 50px !important;
-  text-align: center !important;
+/* ============================= game table sizes ============================= */
+
+/* General table styling */ 
+.table { 
+  width: 100% !important; 
+  border-collapse: collapse !important; 
+} 
+
+/* Center-align text horizontally and vertically in table cells */ 
+.table th, .table td { 
+  text-align: center !important; 
+  vertical-align: middle !important; 
+  padding: 10px !important; 
+} 
+
+/* Styling for table rows and columns */ 
+.table th { 
+  background-color: #f4f4f4 !important; 
+  font-weight: bold !important; 
+} 
+
+/* ============================= styles ============================= */
+
+.tip {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  padding: 20px !important;
+}
+
+.ERROR_MARGIN {
+  margin-top: 10%;
+}
+
+.ERROR {
+  font-size: 55px !important;
+}
+
+.ERROR_BIG {
+  font-size: 150px !important;
+}
+
+h1.games {
+  font-size: 40px !important;
+}
+
+strong.white {
+  color: white !important;
+}
+
+#content {
+  margin: 20px !important;
+}
+
+/* ============================= navbar ============================= */
+
+.navbar {
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.offcanvas {
+  max-width: 180%;
+}
+
+.active {
+  color: #fff !important;
+}
+
+.active:hover {
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  position: static;
+}
+
+/* ============================= footer ============================= */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 100Vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 9em;
+}
+
+a {
+  color: #6c757d;
+}
+
+a:hover {
+  color: #525a60;
+}
+
+/* Ensures containers are centered */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  height: auto; /* Adjust height to be flexible */
+  margin-left: 15% !important;
+}
+
+#_left_empty, #_center, #_right_empty, #_left, #_center, #_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+  padding: 0.5%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-direction: column; /* Stack content vertically */
+  flex: 1; /* Allow flexible height */
+  overflow: hidden; /* Hide overflow to prevent cropping */
+}
+
+.article_empty {
+  visibility: hidden; /* Hide the empty divs to keep the alignment */
+}
+
+article {
+  text-align: left;
+  margin: 25px;
+  word-wrap: break-word; /* Ensure long words break to fit within the container */
+  overflow-wrap: break-word; /* Prevent overflow issues */
+}
+
+.article { 
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-items: center;
+  align-items: center;
+  width: 33.3%;
+  margin: 1%;
+  border: 1px solid #000;
+  height: 35em; /* Adjust height to be flexible */
+  flex: 1; /* Allow flexible height */
+}
+
+/* Clear floats after the columns */ 
+.container::after { 
+  content: ""; 
+  display: table; 
+  clear: both;
 }
